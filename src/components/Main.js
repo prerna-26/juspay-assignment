@@ -3,6 +3,7 @@ import SalesPieChart from "./SalesPieChart";
 import worldMap from "../attributes/images/WorldMap.png";
 import { FaArrowTrendUp, FaArrowTrendDown, FaRegCircle } from "react-icons/fa6";
 import "./component_CSS/main.css";
+import "../index.css"
 
 const cards = [
   {
