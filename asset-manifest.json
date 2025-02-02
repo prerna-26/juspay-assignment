@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/prerna-26/juspay-assignment/static/css/main.ced90411.css",
+    "main.js": "/prerna-26/juspay-assignment/static/js/main.2888fee3.js",
+    "static/js/488.427b9bab.chunk.js": "/prerna-26/juspay-assignment/static/js/488.427b9bab.chunk.js",
+    "static/media/WorldMap.png": "/prerna-26/juspay-assignment/static/media/WorldMap.0f07b65ad27e6ced2527.png",
+    "index.html": "/prerna-26/juspay-assignment/index.html",
+    "main.ced90411.css.map": "/prerna-26/juspay-assignment/static/css/main.ced90411.css.map",
+    "main.2888fee3.js.map": "/prerna-26/juspay-assignment/static/js/main.2888fee3.js.map",
+    "488.427b9bab.chunk.js.map": "/prerna-26/juspay-assignment/static/js/488.427b9bab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ced90411.css",
+    "static/js/main.2888fee3.js"
+  ]
+}
