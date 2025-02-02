@@ -1,6 +1,5 @@
 {
   "name": "juspay-assignment",
-  "homepage": "https://github.com/prerna-26/juspay-assignment",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
