@@ -1,70 +1,110 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Juspay Assignment
 
-## Available Scripts
+This project is a frontend web page built with **ReactJS** for a Juspay assignment. It demonstrates the integration of various React components and third-party libraries, including charting and icon sets. 
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Installation](#installation)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Development](#development)
+- [Contributing](#contributing)
+- [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To set up this project on your local machine, follow these steps:
 
-### `npm test`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/juspay-assignment.git
+   ```
+   
+2. Navigate into the project directory:
+   ```bash
+   cd juspay-assignment
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Install the required dependencies:
+   ```bash
+   npm install
+   ```
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project uses the following technologies and libraries:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React** (v19.0.0) – Frontend JavaScript library for building user interfaces
+- **Chart.js** – For rendering charts
+- **React Router DOM** – For handling routing in the app
+- **Reactstrap** – For Bootstrap-based UI components
+- **Recharts** – For rendering charts and graphs
+- **FontAwesome** – For icons
+- **React Testing Library** – For unit testing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Dependencies:
+- **@fortawesome/fontawesome-svg-core**
+- **chart.js**
+- **react-chartjs-2**
+- **reactstrap**
+- **react-icons**
+- **react-router-dom**
 
-### `npm run eject`
+## Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- A responsive UI designed with **ReactJS** and **Reactstrap**.
+- **Dynamic charts** generated using **Chart.js** and **Recharts**.
+- **Icon integration** using **FontAwesome**.
+- Routing handled by **React Router DOM**.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To start the application in development mode:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm start
+```
 
-## Learn More
+This will run the app on `http://localhost:3000`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Build for Production
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To create a production build of your application:
 
-### Code Splitting
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Run Tests
 
-### Analyzing the Bundle Size
+To run tests for your application:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm test
+```
 
-### Making a Progressive Web App
+## Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![Home Page](./src/attributes/images/homepage.png)  
+*Screenshot of the homepage.*
 
-### Advanced Configuration
+![Order List](./src/attributes/images/orderList.png)  
+*Screenshot of the order Lst.*
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Development
 
-### Deployment
+For local development, this project uses `create-react-app`:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- **React Scripts**: This is used to run, test, and build the project.
+- **Testing**: All tests can be run with `npm test`. This uses the **React Testing Library** for writing unit and integration tests.
 
-### `npm run build` fails to minify
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to fork this repository and submit a pull request if you'd like to contribute. Please make sure to follow the contribution guidelines if applicable.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
