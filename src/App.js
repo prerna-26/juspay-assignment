@@ -12,7 +12,9 @@ function App() {
       <SideBar setIsOpenOrdersPage={setIsOpenOrdersPage} />
       <div className="main-page-container">
         <MiddleHeadBar />
+        <div>
         {!isOpenOrdersPage ? <Main /> : <Orders />}
+        </div>
       </div>
       {!isOpenOrdersPage && <RightBar />}
     </div>
