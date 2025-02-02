@@ -1,0 +1,58 @@
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profileImage {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.profileName {
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+
+.listItem {
+  cursor: pointer;
+  padding: 8px 0;
+  transition: color 0.3s;
+  font-size: 14px;
+  font-weight: 400;
+}
+.toggleIcon {
+  justify-content: left;
+}
+
+.favoritesItem {
+  color: #1c1c1c33;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.favoritesItem1 {
+  padding-right: 40px;
+}
+
+.circles {
+  font-size: 6.5px;
+  color: rgb(0, 0, 0);
+  padding-right: 8px;
+  /* display: block; */
+  /* justify-content: center; */
+}
+
+.CgProfile {
+  font-size: 30px;
+  padding-right: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-icon {
+  padding-right: 8px;
+  font: 6px;
+}

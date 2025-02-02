@@ -1,0 +1,30 @@
+.listItemRight {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  cursor: pointer;
+  padding: 8px 0;
+  transition: color 0.3s;
+  font-size: 14px;
+  font-weight: 400;
+  /* display: flex; */
+}
+
+.timeClass {
+  font-size: 12px;
+  font-weight: 400;
+  color: #1c1c1c66;
+  margin-left: 30px;
+}
+.timeClassAct {
+  font-size: 12px;
+  font-weight: 400;
+  color: #1c1c1c66;
+  margin-left: 33px;
+}
+
+.notiIcon {
+  margin-top: 5px;
+  font-size: 20px;
+}

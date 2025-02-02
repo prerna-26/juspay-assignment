@@ -1,0 +1,30 @@
+.graph-container {
+  padding: 24px;
+  font-family: Arial, sans-serif;
+}
+
+.table-style {
+  width: 93%;
+  height: 85%;
+  border-collapse: collapse;
+}
+
+.table-container th,
+.table-container td {
+  padding: 12px;
+  text-align: left;
+}
+
+.table-container thead th {
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.table-header {
+  color: #1c1c1c66;
+  font-size: 12px;
+  font-weight: 400;
+}
+.table-data {
+  font-size: 12px;
+  font-weight: 400;
+}
