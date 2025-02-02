@@ -169,7 +169,7 @@ export default function Orders() {
                       style={{ display: "flex", alignItems: "center" }}
                     >
                       <span>
-                        <img src={order.photo} />
+                        <img alt="nothing" src={order.photo} />
                       </span>
                       {order.user}
                     </td>

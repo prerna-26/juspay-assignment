@@ -23,7 +23,7 @@ const barGraphData = [
 
 export const BarGraph = () => {
   function formatYAxis(value) {
-    return value == 0 ? value : value + "M";
+    return value === 0 ? value : value + "M";
   }
   return (
     <ResponsiveContainer
@@ -66,7 +66,7 @@ const revenueData = [
 
 export const RevenueGraph = () => {
   function formatYAxis(value) {
-    return value == 0 ? value : value + "M";
+    return value === 0 ? value : value + "M";
   }
   return (
     <ResponsiveContainer width={580} height={232}>

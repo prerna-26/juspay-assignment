@@ -71,7 +71,7 @@ export default function Main() {
           </div>
           <div className="chart-container">
             <h2 className="graph-title">Revenue by Location</h2>
-            <img src={worldMap}></img>
+            <img alt="nothing" src={worldMap}></img>
             {revenueByLocation.map((location) => {
               return (
                 <div className="details-div">

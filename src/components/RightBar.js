@@ -90,7 +90,7 @@ const RightBar = () => {
             return (
               <>
                 <li className="listItemRight">
-                  <img src={activity.icon} />
+                  <img alt="nothing" src={activity.icon} />
                   {activity.message}
                 </li>
                 <div className="timeClassAct">{activity.time}</div>
@@ -105,7 +105,7 @@ const RightBar = () => {
           {contacts.map((contact) => {
             return (
               <li className="listItemRight">
-                <img src={contact.photo} />
+                <img alt="nothing" src={contact.photo} />
                 {contact.name}
               </li>
             );
