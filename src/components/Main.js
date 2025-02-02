@@ -112,7 +112,7 @@ export function RevenueDetailsCards({ data }) {
       <h3 className="card-header">{data.field}</h3>
       <div>
         <span
-          style={{ fontSize: "24px", fontWeight: "600", paddingRight: "27px" }}
+          style={{ fontSize: "24px", fontWeight: "600", paddingRight: "20px" }}
         >
           {data.number}
         </span>
